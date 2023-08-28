@@ -1,0 +1,77 @@
+Css file
+/* Reset some default style */
+body, p, label, input, button,nav {
+margin: 0;
+padding: 0;
+text-align:center;
+}
+h1{
+    text-align:center;
+    color:#00ff62e0;
+    font-size: 50px;
+}
+h2{
+    text-align:center;
+    color:aqua;
+    font-size:40px;
+}
+.container{
+   width:400px;
+   margin:auto;
+   background-color:#05e7f3;
+   padding:10px;
+   border-radius:10px; 
+}
+/* Global Styles */
+body {
+    font-family: "lucida";
+    font-size:25px;
+    color:#ffff00;
+    line-height: 1.8;
+    background-image: url("anime.webp");
+    background-position:center;
+}
+header {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 1rem;
+}
+main {
+padding: 2rem;
+text-align: center;
+}
+footer {
+text-align: center;
+padding: 1rem 0;
+background-color: #333;
+color: #fff;
+}
+/* Forms */
+.signup-form, .signin-form {
+max-width: 300px;
+margin: 0 auto;
+}
+label {
+display: block;
+margin-bottom: 5px;
+}
+input {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ddd;
+border-radius: 3px;
+}
+button {
+display: inline-block;
+padding: 8px 20px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+button:hover {
+background-color: #555;
+}
